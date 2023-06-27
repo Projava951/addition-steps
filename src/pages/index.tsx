@@ -28,7 +28,7 @@ const Home = () => {
   }
 
   const beautifyValue = () => {
-    return beautify(steps, null, 2, 100);
+    return JSON.stringify(steps);
   }
 
   const saveResult = async () => {
